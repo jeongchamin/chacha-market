@@ -1,0 +1,26 @@
+.canopy {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 4;
+}
+.stripes{
+  display: flex;
+  overflow: hidden;
+  flex-wrap: nowrap;
+}
+.stripes span{
+  width: 60px;
+  height: 100px;
+  border-radius: 0 0 30px 30px;
+  flex: 0 0 auto; /* 크기 고정 */
+}
+.stripeBlue {
+  flex: 1;
+  background-color: #1460d0;
+}
+
+.stripeWhite {
+  flex: 1;
+  background-color: #ffffff;
+}
