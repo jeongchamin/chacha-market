@@ -73,7 +73,7 @@ export default function ProductConveyor() {
             </p>
             <p className={styles.fullbox}>
               <span className={styles.boxTitle}>
-                성연락처 / Phone / 電話番号
+                연락처 / Phone / 電話番号
               </span>
               <span className={styles.bold}>010-7117-4595</span>
             </p>

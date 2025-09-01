@@ -1,3 +1,4 @@
+import Shutter from './components/Shutter';
 import Header from './components/Header';
 import Footer from './components/Footer';
 
@@ -8,6 +9,7 @@ import ProductConveyor from './components/ProductConveyor';
 function App() {
   return (
     <div className="app">
+      <Shutter duration={2000}></Shutter>
       <Header />
       <Canopy />
       <ProductCard />
