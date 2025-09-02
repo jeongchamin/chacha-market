@@ -4,8 +4,8 @@ export default function Header() {
   return (
     <header className={styles.header__area}>
       <div className={styles.header__text}>
-        <h1 className={styles.header__title}>챠챠챠 마켙</h1>
-        <p className={styles.header__subtitle}>PORTFOLIO MARKET</p>
+        <h1 className={styles.header__title}>챠판기 :)</h1>
+        <p className={styles.header__subtitle}>Portfolio Vending Machine</p>
       </div>
     </header>
   );

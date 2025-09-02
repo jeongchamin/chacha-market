@@ -4,7 +4,6 @@ import Footer from './components/Footer';
 
 import Canopy from './components/Canopy';
 import ProductCard from './components/ProductCard';
-import ProductConveyor from './components/ProductConveyor';
 
 function App() {
   return (
@@ -13,7 +12,6 @@ function App() {
       <Header />
       <Canopy />
       <ProductCard />
-      <ProductConveyor />
       <Footer />
     </div>
   );

@@ -28,7 +28,7 @@ export default function ProductCard() {
                 setIsModalOpen(true); // 모달 열기
               }}
               className={styles.product__btn}
-            >+MORE
+            >
             </button>
           </li>
         ))}
