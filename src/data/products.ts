@@ -68,7 +68,7 @@ export const products: Product[] = [
   {
     id: '05',
     name: '네네치킨',
-    image: '/src/assets/images/xxx.png',
+    image: 'https://chacha-market.vercel.app/images/img_nene.png',
     link: 'https://nenechicken.com/',
     date: '2016.10',
     company: '더블에스텍',
@@ -82,7 +82,7 @@ export const products: Product[] = [
   {
     id: '06',
     name: 'FUSE',
-    image: '/src/assets/images/xxx.png',
+    image: 'https://chacha-market.vercel.app/images/img_fuse.png',
     link: 'http://www.fuse.kr/',
     date: '2015.07',
     company: '더블에스텍',
@@ -122,7 +122,7 @@ export const products: Product[] = [
   {
     id: '09',
     name: 'Popeyes',
-    image: '/src/assets/images/xxx.png',
+    image: 'https://chacha-market.vercel.app/images/img_ppys.png',
     link: 'https://www.popeyes.co.kr/',
     date: '2017.02',
     company: '더블에스텍',

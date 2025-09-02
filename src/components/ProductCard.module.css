@@ -14,7 +14,7 @@
     background-position: 0 0;
   }
   to {
-    background-position: 320px -320px; /* 오른쪽 위로 이동 */
+    background-position: 320px -320px; 
   }
 }
 
@@ -24,7 +24,7 @@
   padding: 140px 0 100px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 108px 50px; /* 카드 사이 간격 */
+  gap: 108px 50px; 
   list-style: none;
   transition: all 0.3s ease;
 }
@@ -75,7 +75,7 @@
 }
 
 .product:nth-child(2) .product__img {
-  left: 50%;
+  left: 44%;
   transform: translateX(-50%);
   width: 210px;
   height: auto;
@@ -86,6 +86,19 @@
   width: 220px;
   height: auto;
 }
+.product:nth-child(4) .product__img {
+  bottom: 82px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 200px;
+  height: auto;
+}
+.product:nth-child(5) .product__img {
+  left: 50%;
+  transform: translateX(-50%);
+  width: auto;
+  height: 190px;
+}
 .product:nth-child(7) .product__img {
 
   width: auto;
@@ -95,6 +108,12 @@
   left: 50%;
   transform: translateX(-50%);
   width: 140px;
+  height: auto;
+}
+.product:nth-child(9) .product__img {
+  left: 50%;
+  transform: translateX(-50%);
+  width: 250px;
   height: auto;
 }
 .product:nth-child(11) .product__img {
