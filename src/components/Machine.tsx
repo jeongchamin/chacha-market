@@ -6,10 +6,10 @@ export default function Machine(){
         <div>
             <div className={styles.payStickers}>
                 <ul>
-                    <li className={}>카카오페이</li>
+                    <li>카카오페이</li>
                     <li>네이버페이</li>
                 </ul>
-                <div className={}>
+                <div>
                     
                 </div>
             </div>

@@ -73,7 +73,13 @@
   width: 180px;
   height: 180px;
 }
-
+.product:nth-child(1) .product__img {
+  bottom: 126px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 170px;
+  height: auto;
+}
 .product:nth-child(2) .product__img {
   left: 44%;
   transform: translateX(-50%);
@@ -114,6 +120,13 @@
   left: 50%;
   transform: translateX(-50%);
   width: 250px;
+  height: auto;
+}
+.product:nth-child(10) .product__img {
+  bottom: 126px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 170px;
   height: auto;
 }
 .product:nth-child(11) .product__img {

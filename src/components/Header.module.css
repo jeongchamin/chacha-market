@@ -1,65 +1,54 @@
 .header__area {
   position: relative;
-  background-color: #5141C9;
+  background-color: #6c5eb5;
   padding: 10px 0;
-  border-bottom: 12px solid #262684;
+  border-bottom: 8px solid #3b3b8b;
   z-index: 1;
 }
 .header__area::before {
   content: '';
   position: absolute;
-  top: 40%;
+  top: 44%;
   left: 0;
   width: 100%;
-  height: 13px;
-  background-color: #423CB5;
+  height: 11px;
+  background-color: #c18ed1;
   z-index: 2;
 }
 .header__area::after {
   content: '';
   position: absolute;
-  bottom: 40%;
+  top: 58%;
   left: 0;
   width: 100%;
-  height: 13px;
-  background-color: #423CB5;
+  height: 11px;
+  background-color: #e5edbe;
 }
 .header__text {
   position: relative;
-  background-color: #5141C9;
-  border-radius: 100px;
-  padding: 20px 20px;
+  background-color: #6c5eb5;
+  padding: 24px 0px;
   margin: 0 auto;
-  max-width: 60%;
+  width: 300px;
   z-index: 3;
   transition: all 0.3s ease;
 }
 
 .header__title {
   text-align: center;
-  color: #ffffff;
-  font-size: 70px;
-  line-height: 90px;
+}
+.header__title img{
+  height: 80px;
 }
 .header__subtitle {
   text-align: center;
-  color: #F7F7F0;
-  font-size: 22px;
-  line-height: 22px;
+  color: #ebdff2;
+  font-size: 17px;
 }
 
-@media (min-width: 580px) and (max-width: 800px) {
-  .header__text {
-    max-width: 80%;
-  }
-}
 @media (max-width: 580px) {
   .header__text {
-    max-width: 90%;
-  }
-  .header__title {
-    font-size: 48px;
-    line-height: 1.2;
+    width: 260px;
   }
   .header__subtitle {
     font-size: 14px;

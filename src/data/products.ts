@@ -16,7 +16,7 @@ export const products: Product[] = [
   {
     id: '01',
     name: 'PFAI',
-    image: 'https://chacha-market.vercel.app/images/img_pfai.png',
+    image: 'https://www.pfai.co.kr/assets/images2025/icon_pc_pfai.svg',
     link: 'https://www.pfai.co.kr/',
     date: '2025.01',
     company: 'Wealthguide',
@@ -82,7 +82,7 @@ export const products: Product[] = [
   {
     id: '06',
     name: 'FUSE',
-    image: 'https://chacha-market.vercel.app/images/img_fuse.png',
+    image: 'http://www.fuse.kr/images/fuselogo.png',
     link: 'http://www.fuse.kr/',
     date: '2015.07',
     company: '더블에스텍',
@@ -135,7 +135,7 @@ export const products: Product[] = [
   {
     id: '10',
     name: 'PFAI TESTBED',
-    image: 'https://chacha-market.vercel.app/images/img_pfai2.png',
+    image: 'https://www.pfai.co.kr/assets/images2025/icon_pc_pfai.svg',
     link: 'https://testbed.pfai.co.kr/',
     date: '2024.06',
     company: 'Wealthguide',
