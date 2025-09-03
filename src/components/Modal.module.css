@@ -207,13 +207,17 @@
   position: absolute;
   border: 1px solid #5141C9;
   width: 280px;
-  height: 480px;
+  max-height: 480px;
   overflow: hidden;
   background-color: #ffffff;
   top: 30px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 2;
+}
+.design__img{
+  width: 100%;
+  height: auto;
 }
 .back__bottom__inner .flipBtn {
   bottom: 0px;

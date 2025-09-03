@@ -140,7 +140,7 @@ export const products: Product[] = [
     date: '2024.06',
     company: 'Wealthguide',
     role: '퍼블리셔',
-    tools: 'HTML, SCSS, JS,',
+    tools: 'HTML, SCSS, JS',
     barcode: '80877T02E2S05T45',
     code: 'W2',
     design: 'https://chacha-market.vercel.app/images/design_pfai2.png',

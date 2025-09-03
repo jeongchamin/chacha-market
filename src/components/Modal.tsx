@@ -103,7 +103,9 @@ export default function Modal({ isOpen, onClose, product }: ModalProps) {
         <div className={styles.modal__back}>
           <h2 className="sr-only">Back Side</h2>
           <div className={styles.back__top}>
-            <img src={product.design} alt="" className={styles.design} />
+            <div className={styles.design}>
+              <img src={product.design} alt="" className={styles.design__img} />
+            </div>
             <div className={styles.back__top__inner}></div>
           </div>
           <div className={styles.back__bottom}>

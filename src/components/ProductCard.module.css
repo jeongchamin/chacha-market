@@ -140,15 +140,37 @@
   width: 72%;
   height: 42px;
   margin: 10px auto 0;
-  font-size: 14px;
-  font-weight: 500;
   border-radius: 21px;
-  border: none;
-  background-color: #000000;
   cursor: pointer;
   box-sizing: border-box;
-  z-index: 3;
+	outline: none;
+	text-decoration: none;
+	text-shadow: 0 1px 1px rgba(0,0,0,.3);
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+
+	border: 1px solid #424242;
+	background: #111111;
+	background: -webkit-gradient(linear, left top, left bottom, from(#353434), to(#111111));
+	background: -moz-linear-gradient(top,  #353434,  #111111);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#353434', endColorstr='#111111');
+
 }
+
+.product__btn:hover {
+	background: #180d0d;
+	background: -webkit-gradient(linear, left top, left bottom, from(#180d0d), to(#221212));
+	background: -moz-linear-gradient(top,  #180d0d,  #221212);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#180d0d', endColorstr='#221212');
+}
+.product__btn:active {
+	color: #221212;
+	background: -webkit-gradient(linear, left top, left bottom, from(#221212), to(#3c2525));
+	background: -moz-linear-gradient(top,  #221212,  #3c2534);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#221212', endColorstr='#3c2525');
+}
+
 .product__btn::after{
   content: '';
   width: 22px;

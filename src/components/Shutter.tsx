@@ -20,7 +20,7 @@ export default function Shutter({ duration = 2000, children }: OverlayProps) {
     <div
       className={`${styles.shutter} ${show ? styles.visible : styles.hidden}`}
     >
-      {children ?? <h1>로딩중...</h1>}
+      {/* {children ?? <h1>로딩중...</h1>} */}
     </div>
   );
 }
