@@ -5,13 +5,13 @@
   font-weight: 100;
   font-style: normal;
   font-display: swap;
-  src: url('https://cdn.jsdelivr.net/gh/fonts-archive/Paperlogy/Paperlogy-1Thin.woff2')
+  src: url('/fonts/Paperlogy-1Thin.woff2')
       format('woff2'),
-    url('https://cdn.jsdelivr.net/gh/fonts-archive/Paperlogy/Paperlogy-1Thin.woff')
+    url('/fonts/Paperlogy-1Thin.woff')
       format('woff'),
-    url('https://cdn.jsdelivr.net/gh/fonts-archive/Paperlogy/Paperlogy-1Thin.otf')
+    url('/fonts/Paperlogy-1Thin.otf')
       format('opentype'),
-    url('https://cdn.jsdelivr.net/gh/fonts-archive/Paperlogy/Paperlogy-1Thin.ttf')
+    url('/fonts/Paperlogy-1Thin.ttf')
       format('truetype');
 }
 @font-face {
@@ -19,13 +19,13 @@
   font-weight: 200;
   font-style: normal;
   font-display: swap;
-  src: url('https://cdn.jsdelivr.net/gh/fonts-archive/Paperlogy/Paperlogy-2ExtraLight.woff2')
+  src: url('/fonts/Paperlogy-2ExtraLight.woff2')
       format('woff2'),
-    url('https://cdn.jsdelivr.net/gh/fonts-archive/Paperlogy/Paperlogy-2ExtraLight.woff')
+    url('/fonts/Paperlogy-2ExtraLight.woff')
       format('woff'),
-    url('https://cdn.jsdelivr.net/gh/fonts-archive/Paperlogy/Paperlogy-2ExtraLight.otf')
+    url('/fonts/Paperlogy-2ExtraLight.otf')
       format('opentype'),
-    url('https://cdn.jsdelivr.net/gh/fonts-archive/Paperlogy/Paperlogy-2ExtraLight.ttf')
+    url('/fonts/Paperlogy-2ExtraLight.ttf')
       format('truetype');
 }
 @font-face {
@@ -33,13 +33,13 @@
   font-weight: 300;
   font-style: normal;
   font-display: swap;
-  src: url('https://cdn.jsdelivr.net/gh/fonts-archive/Paperlogy/Paperlogy-3Light.woff2')
+  src: url('/fonts/Paperlogy-3Light.woff2')
       format('woff2'),
-    url('https://cdn.jsdelivr.net/gh/fonts-archive/Paperlogy/Paperlogy-3Light.woff')
+    url('/fonts/Paperlogy-3Light.woff')
       format('woff'),
-    url('https://cdn.jsdelivr.net/gh/fonts-archive/Paperlogy/Paperlogy-3Light.otf')
+    url('/fonts/Paperlogy-3Light.otf')
       format('opentype'),
-    url('https://cdn.jsdelivr.net/gh/fonts-archive/Paperlogy/Paperlogy-3Light.ttf')
+    url('/fonts/Paperlogy-3Light.ttf')
       format('truetype');
 }
 @font-face {
@@ -47,13 +47,13 @@
   font-weight: 400;
   font-style: normal;
   font-display: swap;
-  src: url('https://cdn.jsdelivr.net/gh/fonts-archive/Paperlogy/Paperlogy-4Regular.woff2')
+  src: url('/fonts/Paperlogy-4Regular.woff2')
       format('woff2'),
-    url('https://cdn.jsdelivr.net/gh/fonts-archive/Paperlogy/Paperlogy-4Regular.woff')
+    url('/fonts/Paperlogy-4Regular.woff')
       format('woff'),
-    url('https://cdn.jsdelivr.net/gh/fonts-archive/Paperlogy/Paperlogy-4Regular.otf')
+    url('/fonts/Paperlogy-4Regular.otf')
       format('opentype'),
-    url('https://cdn.jsdelivr.net/gh/fonts-archive/Paperlogy/Paperlogy-4Regular.ttf')
+    url('/fonts/Paperlogy-4Regular.ttf')
       format('truetype');
 }
 @font-face {
@@ -61,13 +61,13 @@
   font-weight: 500;
   font-style: normal;
   font-display: swap;
-  src: url('https://cdn.jsdelivr.net/gh/fonts-archive/Paperlogy/Paperlogy-5Medium.woff2')
+  src: url('/fonts/Paperlogy-5Medium.woff2')
       format('woff2'),
-    url('https://cdn.jsdelivr.net/gh/fonts-archive/Paperlogy/Paperlogy-5Medium.woff')
+    url('/fonts/Paperlogy-5Medium.woff')
       format('woff'),
-    url('https://cdn.jsdelivr.net/gh/fonts-archive/Paperlogy/Paperlogy-5Medium.otf')
+    url('/fonts/Paperlogy-5Medium.otf')
       format('opentype'),
-    url('https://cdn.jsdelivr.net/gh/fonts-archive/Paperlogy/Paperlogy-5Medium.ttf')
+    url('/fonts/Paperlogy-5Medium.ttf')
       format('truetype');
 }
 @font-face {
@@ -75,13 +75,13 @@
   font-weight: 600;
   font-style: normal;
   font-display: swap;
-  src: url('https://cdn.jsdelivr.net/gh/fonts-archive/Paperlogy/Paperlogy-6SemiBold.woff2')
+  src: url('/fonts/Paperlogy-6SemiBold.woff2')
       format('woff2'),
-    url('https://cdn.jsdelivr.net/gh/fonts-archive/Paperlogy/Paperlogy-6SemiBold.woff')
+    url('/fonts/Paperlogy-6SemiBold.woff')
       format('woff'),
-    url('https://cdn.jsdelivr.net/gh/fonts-archive/Paperlogy/Paperlogy-6SemiBold.otf')
+    url('/fonts/Paperlogy-6SemiBold.otf')
       format('opentype'),
-    url('https://cdn.jsdelivr.net/gh/fonts-archive/Paperlogy/Paperlogy-6SemiBold.ttf')
+    url('/fonts/Paperlogy-6SemiBold.ttf')
       format('truetype');
 }
 @font-face {
@@ -89,13 +89,13 @@
   font-weight: 700;
   font-style: normal;
   font-display: swap;
-  src: url('https://cdn.jsdelivr.net/gh/fonts-archive/Paperlogy/Paperlogy-7Bold.woff2')
+  src: url('/fonts/Paperlogy-7Bold.woff2')
       format('woff2'),
-    url('https://cdn.jsdelivr.net/gh/fonts-archive/Paperlogy/Paperlogy-7Bold.woff')
+    url('/fonts/Paperlogy-7Bold.woff')
       format('woff'),
-    url('https://cdn.jsdelivr.net/gh/fonts-archive/Paperlogy/Paperlogy-7Bold.otf')
+    url('/fonts/Paperlogy-7Bold.otf')
       format('opentype'),
-    url('https://cdn.jsdelivr.net/gh/fonts-archive/Paperlogy/Paperlogy-7Bold.ttf')
+    url('/fonts/Paperlogy-7Bold.ttf')
       format('truetype');
 }
 @font-face {
@@ -103,13 +103,13 @@
   font-weight: 800;
   font-style: normal;
   font-display: swap;
-  src: url('https://cdn.jsdelivr.net/gh/fonts-archive/Paperlogy/Paperlogy-8ExtraBold.woff2')
+  src: url('/fonts/Paperlogy-8ExtraBold.woff2')
       format('woff2'),
-    url('https://cdn.jsdelivr.net/gh/fonts-archive/Paperlogy/Paperlogy-8ExtraBold.woff')
+    url('/fonts/Paperlogy-8ExtraBold.woff')
       format('woff'),
-    url('https://cdn.jsdelivr.net/gh/fonts-archive/Paperlogy/Paperlogy-8ExtraBold.otf')
+    url('/fonts/Paperlogy-8ExtraBold.otf')
       format('opentype'),
-    url('https://cdn.jsdelivr.net/gh/fonts-archive/Paperlogy/Paperlogy-8ExtraBold.ttf')
+    url('/fonts/Paperlogy-8ExtraBold.ttf')
       format('truetype');
 }
 @font-face {
@@ -117,13 +117,13 @@
   font-weight: 900;
   font-style: normal;
   font-display: swap;
-  src: url('https://cdn.jsdelivr.net/gh/fonts-archive/Paperlogy/Paperlogy-9Black.woff2')
+  src: url('/fonts/Paperlogy-9Black.woff2')
       format('woff2'),
-    url('https://cdn.jsdelivr.net/gh/fonts-archive/Paperlogy/Paperlogy-9Black.woff')
+    url('/fonts/Paperlogy-9Black.woff')
       format('woff'),
-    url('https://cdn.jsdelivr.net/gh/fonts-archive/Paperlogy/Paperlogy-9Black.otf')
+    url('/fonts/Paperlogy-9Black.otf')
       format('opentype'),
-    url('https://cdn.jsdelivr.net/gh/fonts-archive/Paperlogy/Paperlogy-9Black.ttf')
+    url('/fonts/Paperlogy-9Black.ttf')
       format('truetype');
 }
 
