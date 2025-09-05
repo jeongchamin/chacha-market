@@ -14,8 +14,6 @@
         flex-direction:column
     }
 }
-.payStickers{
-}
 .payStickers ul{
     display: flex;
     justify-content: flex-start;
@@ -153,7 +151,7 @@
     border: 1px solid #333333;
 }
 .bill__cover:hover {
-    transform: rotateX(120deg); 
+    transform:perspective(600px) rotateX(130deg); 
   }
 .bill__cover::after{
     content: '';

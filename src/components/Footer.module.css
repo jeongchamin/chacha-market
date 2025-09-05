@@ -6,18 +6,32 @@
 }
 .outlet{
   background-color: #3A3938;
-  
   margin: 0 auto 48px;
   border-radius: 40px;
   padding: 10px;
   box-sizing: border-box;
 }
+.outlet__dark{
+  position: relative;
+  background: #111111;
+  border-radius: 38px;
+  padding: 8px;
+}
 .outlet__port{
-  background: #1E1D1D;
   width: 100%;
   height: 320px;
   border-radius: 32px;
+  background: rgba(47, 50, 54, 0.3);
+  transition: transform 0.3s;
+  transform-origin: top; 
+  border: 1px solid #333333;
+  cursor: pointer;
 }
+.outlet__port:hover {
+
+  transform: perspective(400px) rotateX(-15deg);
+}
+
 .outlet__txt{
   background: url(../assets/images/img_push.svg)no-repeat center;
   height: 100%;
