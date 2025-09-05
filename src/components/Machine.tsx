@@ -23,7 +23,9 @@ export default function Machine(){
                         </div>
                     </div>
                     <div className={styles.payInsert__coins}>
-                        <div className={styles.coin__return}></div>
+                        <div className={styles.coin__return}>
+                            <div className={styles.coin__returnBtn}></div>
+                        </div>
                         <div className={styles.coin__slot}>
                             <div className={styles.coin}></div>
                         </div>

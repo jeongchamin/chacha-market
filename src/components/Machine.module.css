@@ -1,23 +1,25 @@
 .machine{
     background-color: #6c5eb5;
-    padding-top: 40px;
+    padding: 40px 0 56px;
 }
 .machineContainer{
     position: relative;
     display: flex;
-    justify-content: end;
+    justify-content: space-between;
+    transition: all 0.3s ease;
+}
+@media (max-width: 740px) {
+    .machineContainer{
+        flex-direction:column
+    }
 }
 .payStickers{
-    position: absolute;
-    padding: 0 20px;
-    top: 60px;
-    right: 50%;
-    transform: translateX(-50%);
 }
 .payStickers ul{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: flex-start;
+    padding-bottom: 20px;
 }
 .kakaopay{
     width: 100px;
@@ -35,16 +37,36 @@
     border-radius: 8px;
 }
 .payInsert{
+    position: relative;
     background-color: #463a83;
     padding: 16px;
-    width: 400px;
+    width: 362px;
     height: 192px;
     border-radius: 20px 60px 130px 20px;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    z-index: 0;
 }
-.payInsert__bills{
+.payInsert::before{
+    content: '';
+    width: 74px;
+    height: 50px;
+    background-color: #000000;
+    position: absolute;
+    top: 16px;
+    right: 69px;
+}
+.payInsert::after{
+    content: '';
+    width: 80px;
+    height: 20px;
+    background-color: #000000;
+    position: absolute;
+    top: 85px;
+    right: 76px;
+    transform: rotate(24deg);
+    z-index: -1;
 }
 .display{
     width: 140px;
@@ -84,7 +106,22 @@
     top: 18px;
     left: 14px;
     background-color: #87ff5a;
+    animation: bg-blink-triple 2s steps(1, end) infinite;
 }
+
+@keyframes bg-blink-triple {
+    0%, 10%   { background-color: var(--bg, transparent); }
+    5%        { background-color: var(--flash, #87ff5a); }
+  
+    20%, 30%  { background-color: var(--bg, transparent); }
+    25%       { background-color: var(--flash, #87ff5a); }
+  
+    40%, 50%  { background-color: var(--bg, transparent); }
+    45%       { background-color: var(--flash, #87ff5a); }
+  
+    100%      { background-color: var(--bg, transparent); }
+  }
+
 .bill__dark::after{
     content: '';
     width: 15px;
@@ -94,6 +131,11 @@
     top: 18px;
     right: 14px;
     background-color: #87ff5a;
+    animation: bg-blink-once 2s steps(1, end) infinite;
+}
+@keyframes bg-blink-once {
+    0%, 5%   { background-color: var(--bg, transparent); } /* 번쩍 */
+    6%, 100% { background-color: var(--flash, #87ff5a); } /* 긴 쉬는 시간 */
 }
 
 .bill__cover{
@@ -122,21 +164,18 @@
     opacity: 1;
 }
 
-  .payInsert__coins{
+.payInsert__coins{
     display: flex;
     justify-content: start;
-  }
-  .coin__return{
+}
+.coin__return{
     position: relative;
     width: 74px;
     height: 74px;
     border-radius: 50%;
     background-color: #000000;
-  }
-
-  .coin__return::before{
-    content: '';
-    display: inline-block;
+}
+.coin__returnBtn{
     width: 42px;
     height: 42px;
     border-radius: 50%;
@@ -148,20 +187,53 @@
     box-shadow: 
     inset -10px -10px 10px 1px rgba(0, 0, 0, 0.2), 
     inset 5px 5px 10px 2px rgba(224, 204, 133, 0.8); 
-  }
-  .coin__return:active:before{
+}
+.coin__returnBtn:active{
     background-color: #deb305;
     box-shadow: 
     inset -10px -10px 10px 1px rgba(0, 0, 0, 0.2), 
     inset 5px 5px 10px 2px rgba(224, 204, 133, 0.6); 
-  }
-  .coin__slot{
-    position: relative;
-    width: 108px;
-    height: 108px;
+}
+.coin__slot{
+    width: 106px;
+    height: 106px;
     border-radius: 50%;
     background-color: #000000;
-  }
-  .coin{
-    
-  }
+    box-sizing: border-box;
+    margin-left: -16px;
+}
+.coin{
+    position: relative;
+    background-color: #333333;
+    width: 74px;
+    height: 74px;
+    border-radius: 50%;
+    margin: 16px;
+    border: 2px solid #fdca01;
+}
+.coin::before{
+    content: '';
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #e1e1ea;
+    border: 3px solid #7f7f7f;
+    margin: 5px;
+    box-shadow: 
+    inset -10px -10px 10px 1px rgba(239, 238, 232, 0.5), 
+    inset 5px 5px 10px 2px rgba(0, 0, 0, 0.4); 
+}
+.coin::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-26deg);
+    width: 40px;
+    height: 8px;
+    border-radius: 2px;
+    border: 1px solid #a7a7a7;
+    background-color: #222222;
+
+}
