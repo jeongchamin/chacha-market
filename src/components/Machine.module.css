@@ -1,0 +1,167 @@
+.machine{
+    background-color: #6c5eb5;
+    padding-top: 40px;
+}
+.machineContainer{
+    position: relative;
+    display: flex;
+    justify-content: end;
+}
+.payStickers{
+    position: absolute;
+    padding: 0 20px;
+    top: 60px;
+    right: 50%;
+    transform: translateX(-50%);
+}
+.payStickers ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.kakaopay{
+    width: 100px;
+    height: 100px;
+    background: #facd00 url(../assets/images/img_kakao.jpeg)no-repeat center;
+    background-size: contain;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+.naverpay{
+    width: 100px;
+    height: 100px;
+    background: #00de5a url(../assets/images/img_naver.svg)no-repeat center;
+    background-size: 70%;
+    border-radius: 8px;
+}
+.payInsert{
+    background-color: #463a83;
+    padding: 16px;
+    width: 400px;
+    height: 192px;
+    border-radius: 20px 60px 130px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.payInsert__bills{
+}
+.display{
+    width: 140px;
+    padding: 10px 14px;
+    height: 56px;
+    border-radius: 14px;
+    background-color: #000000;
+    font-size: 18px;
+    font-weight: 500;
+    color: #e23737;
+    text-shadow: 0 0 10px #f42323;
+    box-sizing: border-box;
+    margin-bottom: 12px;
+}
+.bill{
+    position: relative;
+    width: 140px;
+    height: 92px;
+    background-color: #262524;
+    box-sizing: border-box;
+    border-radius: 14px;
+    padding: 20px 12px 7px;
+}
+.bill__dark{
+    position: relative;
+    background: #000000 url(../assets/images/img_billLight.svg)no-repeat center bottom;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.bill__dark::before{
+    content: '';
+    width: 15px;
+    height: 6px;
+    position: absolute;
+    border-radius: 2px;
+    top: 18px;
+    left: 14px;
+    background-color: #87ff5a;
+}
+.bill__dark::after{
+    content: '';
+    width: 15px;
+    height: 6px;
+    position: absolute;
+    border-radius: 2px;
+    top: 18px;
+    right: 14px;
+    background-color: #87ff5a;
+}
+
+.bill__cover{
+    position: absolute;
+    top: 9px;
+    left: 8px;
+    width: 124px;
+    height: 78px;
+    background: rgba(255, 255, 255,0.2);
+    box-sizing: border-box;
+    border-radius: 4px;
+    transform-origin: top;
+    transition: transform 0.5s ease; 
+    border: 1px solid #333333;
+}
+.bill__cover:hover {
+    transform: rotateX(120deg); 
+  }
+.bill__cover::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url(../assets/images/icon_billCover.svg)no-repeat center bottom 10px;
+    background-size: 40px auto;
+    opacity: 1;
+}
+
+  .payInsert__coins{
+    display: flex;
+    justify-content: start;
+  }
+  .coin__return{
+    position: relative;
+    width: 74px;
+    height: 74px;
+    border-radius: 50%;
+    background-color: #000000;
+  }
+
+  .coin__return::before{
+    content: '';
+    display: inline-block;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    margin: 16px 0 0 16px;
+    background-color: #fdca01;
+    border: 4px solid #47474c;
+    box-sizing: border-box;
+    cursor: pointer;
+    box-shadow: 
+    inset -10px -10px 10px 1px rgba(0, 0, 0, 0.2), 
+    inset 5px 5px 10px 2px rgba(224, 204, 133, 0.8); 
+  }
+  .coin__return:active:before{
+    background-color: #deb305;
+    box-shadow: 
+    inset -10px -10px 10px 1px rgba(0, 0, 0, 0.2), 
+    inset 5px 5px 10px 2px rgba(224, 204, 133, 0.6); 
+  }
+  .coin__slot{
+    position: relative;
+    width: 108px;
+    height: 108px;
+    border-radius: 50%;
+    background-color: #000000;
+  }
+  .coin{
+    
+  }
