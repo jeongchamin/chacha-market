@@ -1,6 +1,7 @@
 .machine{
     background-color: #6c5eb5;
     padding: 40px 0 56px;
+    overflow: clip;
 }
 .machineContainer{
     position: relative;
@@ -106,7 +107,7 @@
     top: 18px;
     left: 14px;
     background-color: #87ff5a;
-    animation: bg-blink-triple 2s steps(1, end) infinite;
+    animation: bg-blink-triple 1.4s steps(1, end) infinite;
 }
 
 @keyframes bg-blink-triple {

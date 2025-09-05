@@ -28,3 +28,12 @@
   font-weight: 500;
   color: #9894E0;
 }
+
+@media (max-width: 510px) {
+  .outlet__port{
+    height: 220px;
+  }
+  .outlet__txt{
+    background-size: 80% auto;
+  }
+}
