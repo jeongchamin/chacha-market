@@ -160,16 +160,17 @@
 }
 
 .barcodeWrapper {
-  position: relative;
-  margin-right: 80px;
+  position: absolute;
+  bottom: 22px;
+  left: 24px;
+  margin-right: 103px;
   box-sizing: border-box;
 }
 
 .barcode {
   position: relative;
   display: block;
-  margin-top: 32px;
-  padding-top: 16px;
+  padding-top: 16px; 
   cursor: pointer;
   background: #ffffff;
   border: none;
@@ -189,7 +190,7 @@
 .barcode::after {
   content: '';
   position: absolute;
-  bottom: -24px;
+  bottom: -22px;
   right: -24px;
   width: 1px;
   height: 160px;
